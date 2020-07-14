@@ -1,3 +1,2 @@
-f [ -n "${DISPLAY+x}" ]; then
-    xmodmap -e "keycode 64 = space"
-fi
+#!/bin/bash
+xmodmap -e "keycode 64 = space"
